@@ -4,12 +4,21 @@
 
 #recursive solution
 
-def first_factorial(num)
-  if num == 0
-    1
-  else
-    num * first_factorial(num-1)
-   end
-end 
+# def first_factorial(num)
+#   if num == 0
+#     1
+#   else
+#     num * first_factorial(num-1)
+#    end
+# end 
 
-puts first_factorial(5)
+
+# def first_factorial(num)
+#   if num == 0
+#     1
+#   else
+#     (1..num).inject(:*)
+#   end
+# end
+
+# puts first_factorial(5)
